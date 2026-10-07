@@ -1,0 +1,27 @@
+.elementor .e-0a6bcb0-7fa69e5{font-family:Poppins;text-align:center;margin-inline-start:10px;margin-inline-end:10px;}.elementor .e-1e79c27-0b63ebe{width:auto;border-width:0px;}.elementor .e-8c57cdd-0b7160b{font-family:Poppins;text-align:center;margin-inline-start:10px;margin-inline-end:10px;}.elementor .e-4db4065-8febf34{width:auto;border-width:0px;}.elementor .e-0617fd6-e3dbeb4{font-family:Poppins;text-align:center;margin-inline-start:10px;margin-inline-end:10px;}.elementor .e-8ae4ad8-7342c34{width:auto;border-width:0px;}.elementor .e-bc0955d-86f6996{margin-block-start:30px;/* 1. Eliminar el fondo gris por defecto en Hover y en Estado Activo */
+.pestanas-greenlens .e-n-tab-title,
+.pestanas-greenlens .e-n-tab-title:hover,
+.pestanas-greenlens .e-n-tab-title[aria-selected="true"],
+.pestanas-greenlens .e-n-tab-title[data-state="active"],
+.pestanas-greenlens .e-n-tab-title.e-active {
+  background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 2. Cambiar color de texto (párrafo interno) a Verde Musgo en Hover y Activo */
+.pestanas-greenlens .e-n-tab-title:hover *,
+.pestanas-greenlens .e-n-tab-title[aria-selected="true"] *,
+.pestanas-greenlens .e-n-tab-title[data-state="active"] *,
+.pestanas-greenlens .e-n-tab-title.e-active * {
+  color: #2A5243 !important; /* Verde Musgo */
+  font-weight: bold !important;
+}
+
+/* 3. Mostrar la línea inferior Terracota cuando la pestaña está Activa o en Hover */
+.pestanas-greenlens .e-n-tab-title:hover,
+.pestanas-greenlens .e-n-tab-title[aria-selected="true"],
+.pestanas-greenlens .e-n-tab-title[data-state="active"],
+.pestanas-greenlens .e-n-tab-title.e-active {
+  border-bottom: 3px solid #E25822 !important; /* Terracota */
+}\n}.elementor .e-47c50d4{padding-block-start:30px;flex-direction:column;}
